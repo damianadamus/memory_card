@@ -1,5 +1,11 @@
+import { GameHeader } from "./components/GameHeader";
+
 function App() {
-  return <>Hello memory card!</>;
+  return (
+    <div className="app">
+      <GameHeader />
+    </div>
+  );
 }
 
 export default App;
